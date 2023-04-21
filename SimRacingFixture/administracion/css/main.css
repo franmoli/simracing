@@ -1,0 +1,127 @@
+/********************** Páginas de Error y Especiales **********************/
+.mensaje-central, .mensaje-error {
+    height: 85vh;
+}
+.redes-sociales {
+    height: 15vh;
+}
+@media only screen and (max-width: 780px){
+    .mensaje-central h1.titulo-especial {
+        font-size: 8rem;
+    }
+}
+@media only screen and (max-width: 680px){
+    .mensaje-central h1.titulo-especial {
+        font-size: 7rem;
+    }
+}
+@media only screen and (max-width: 580px){
+    .mensaje-central h1.titulo-especial {
+        font-size: 6rem;
+    }
+}
+@media only screen and (max-width: 490px){
+    .mensaje-central h1.titulo-especial {
+        font-size: 5rem;
+    }
+}
+@media only screen and (max-width: 410px){
+    .mensaje-central h1.titulo-especial {
+        font-size: 4rem;
+    }
+}
+@media only screen and (max-width: 330px){
+    .mensaje-central h1.titulo-especial {
+        font-size: 3rem;
+    }
+}
+
+/********************** Sector de Logeo **********************/
+.bg-login {
+    background-image: url('../img/login-background.png');
+    background-position: center;
+}
+.contenedor-logeo {
+    height: 92vh;
+}
+.cuadro-logeo {
+    width: 45%;
+    background-color: var(--colorBlanco);
+    opacity: 90%;
+    padding: 2rem;
+    transform: scale(0.8);
+}
+header.header-cuadro-logeo {
+    background: rgb(170,238,230);
+    background: linear-gradient(37deg, rgba(170,238,230,1) 10%, rgba(188,242,235,1) 100%);
+    width: 75%;
+    margin: -7rem auto;
+}
+header.header-cuadro-logeo img {
+    height: 9rem;
+}
+.send-login button {
+    color: var(--colorNegro);
+    background: rgb(170,238,230);
+    background: linear-gradient(37deg, rgba(170,238,230,1) 10%, rgba(188,242,235,1) 100%);
+}
+.send-login button:hover {
+    background: rgb(102, 173, 165);
+    transition: all .5s ease-in;
+}
+.send-login button i {
+    padding: 0.5rem;
+    font-size: 3rem;
+}
+.opciones a {
+    color: var(--colorNegro);
+    font-weight: bold;
+}
+.contenedor-idiomas {
+    height: 8vh;
+    justify-content: left!important;
+}
+.lenguajes {
+    margin-left: 2rem;
+}
+@media only screen and (min-width: 1300px){
+    .contenedor-logeo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 1199px){
+    .cuadro-logeo {
+        width: 55%;
+    }
+}
+@media only screen and (max-width: 1050px){
+    .cuadro-logeo {
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 990px){
+    .cuadro-logeo {
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 770px){
+    .contenedor-logeo {
+        height: auto;
+    }
+    .cuadro-logeo {
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 500px){
+    .cuadro-logeo {
+        width: 100%;
+    }
+    .contenedor-idiomas {
+        justify-content: center!important;
+    }
+    .opciones a {
+        font-size: 1.7rem;
+    }
+}
